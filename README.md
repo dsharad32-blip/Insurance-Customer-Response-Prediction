@@ -36,27 +36,26 @@ Ready for Deployment
 ## 📁 Project Structure
 Insurance_Customer_Response_Prediction/
 │
-├── app.py                   # Streamlit entry point (not yet deployed)
-├── requirements.txt         # Project dependencies
+├── app.py
+├── requirements.txt        
 ├── README.md
-├── .gitignore               # Git ignore file
+├── .gitignore              
 │
-├── DATA/                    # Data folder
-│   ├── data.csv             # Raw dataset
-│   └── clean_data.csv       # Cleaned dataset
+├── DATA/                    
+│   ├── data.csv             
+│   └── clean_data.csv       
 │
-├── Models/                   # Trained model & metrics
-│   ├── Best_model.pkl       # Best model
-│   └── model_results.csv    # Model comparison metrics
+├── Models/                 
+│   ├── Best_model.pkl      
+│   └── model_results.csv    
 │
-├── Notebooks/               # Analysis & preprocessing
-│   ├── EDA.ipynb            # Exploratory data analysis
-│   └── preprocessing.ipynb  # Data preprocessing
+├── Notebooks/               
+│   ├── EDA.ipynb            
+│   └── preprocessing.ipynb  
 │
-├── SRC/                     # Core ML logic
-│   └── training.py          # Training pipeline
-│
-└── venv/                    # Virtual environment (ignored)
+├── SRC/                     
+│   └── training.py          
+└── venv/                    
 
 ## 📊 Dataset
 - 🔹 **data.csv** – Raw dataset with customer, vehicle, and policy information
@@ -114,8 +113,10 @@ python SRC/training.py
   - F1 Score
   - ROC-AUC
 
-## 📦 Deployment (Future)
-- 🔹 Once app.py is ready, the project can be deployed using Streamlit.
+## 🌐 Live Demo
+
+You can interact with the **Insurance Customer Response Prediction** app here:
+[Open Streamlit App](https://htbukmngt6hoze9zysc3ag.streamlit.app/)
 
 ## 📊 Technologies Used
 - 🔹 Python 3.10
@@ -128,7 +129,7 @@ python SRC/training.py
 - 🔹 Joblib
 - 🔹 Jupyter Notebook
 
-## 🚀 Future Enhancements
+##   Future Enhancements
 - 🔹 Streamlit-based UI for predictions
 - 🔹 Batch prediction support
 - 🔹 Explainable AI (SHAP)
@@ -136,10 +137,10 @@ python SRC/training.py
 - 🔹 Docker deployment
 - 🔹 Monitoring and model drift detection
 
-## 🤝 Contributing
+##   Contributing
 - 🔹 Contributions, suggestions, and improvements are welcome
 - 🔹 Feel free to open an issue or submit a pull request
 
-## 🙏 Acknowledgements
+##   Acknowledgements
 - 🔹 Inspired by insurance customer analytics datasets
 - 🔹 Thanks to the open-source Python ecosystem

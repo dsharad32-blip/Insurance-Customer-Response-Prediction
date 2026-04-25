@@ -54,8 +54,7 @@ Insurance_Customer_Response_Prediction/
 │   └── preprocessing.ipynb  
 │
 ├── SRC/                     
-│   └── training.py          
-└── venv/                    
+  └── training.py                              
 
 ## 📊 Dataset
 - 🔹 **data.csv** – Raw dataset with customer, vehicle, and policy information
@@ -66,6 +65,15 @@ Dataset contains features like:
 - 🔹 Vehicle Age, Vehicle Damage
 - 🔹 Policy details, Annual Premium
 - 🔹 Historical customer behavior
+
+## ⚠️ Note About Model File
+
+- The trained model file `Best_model.pkl` is large (~73 MB).  
+- Due to the **100 MB submission limit for the capstone project**, the `.pkl` file may not be included in the submitted zip folder.
+
+- However, the trained model is available in this **GitHub repository** and can be downloaded from the **Models/** directory if required. The Streamlit application and training pipeline demonstrate how the model is used for prediction.
+
+
 
 ## ⚙️ Installation & Setup
 
